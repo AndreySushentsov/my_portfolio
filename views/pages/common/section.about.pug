@@ -1,0 +1,23 @@
+section#about.l-section.l-section__about
+  svg(viewbox='0 0 1000 55' preserveAspectRatio='none').l-section__triangle
+      polygon(points='0,0 0,55 1000,55')
+  .l-section__container.l-section__container_about
+    h2.c-about__title Здравствуйте, меня зовут Андрей Сушенцов,
+    p.c-about__description я занимаюсь web-разработкой апреля с 2015 года, актвно развиваюсь в области создания адаптивных сайтов и web-приложений с применением современных технологий.
+    p.c-about__description Работаю в основном на языке JavaScript, так же есть небольшой опыт разработки на PHP.
+    .c-about__edu
+      .c-about__edu-wrapper
+        h3.c-about__edu-title Что изучал, какие курсы проходил.
+        ul.c-about__edu-list
+          each item in content
+            li.c-about__edu-item
+              span.c-about__edu-date=item.date
+              p.c-about__edu-course=item.course
+              a(href='#').c-about__edu-certificate=item.source
+              img(src=`${item.src}`).c-about__edu-img
+      .c-modal__container
+        .modal__burger
+          .m_bar1
+          .m_bar3
+        .c-modal__image-wrapper
+          img().c-modal__image

@@ -1,0 +1,16 @@
+include ../common/_template.pug
+
+body
+  include ../common/_preloader.pug
+  include ../common/_navigation.pug
+  include ../common/section.header.pug
+  include ../common/section.about.pug
+  include ../common/section.works.pug
+  include ../common/section.skills.pug
+  include ../common/section.contacts.pug
+  script(src='/js/foundation.js' defer)
+  script(src='/js/app.js' defer)
+  <!--[if lt IE 9]>
+  script(src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js")
+  <![endif]-->
+  script(src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous")

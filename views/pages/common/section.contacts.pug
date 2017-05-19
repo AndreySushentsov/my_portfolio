@@ -1,0 +1,9 @@
+- var contacts = [{icon:'fa fa-github',link:'https://github.com/AndreySushentsov',descr:'', target:'_blank'}, {icon:'fa fa-facebook',link:'https://www.facebook.com/profile.php?id=100004265161933',descr:'', target:'_blank'}, {icon:'fa fa-envelope-o',link:'',descr:'p1oneer8527@gmail.com', target:''}, {icon:'fa fa-skype',link:'',descr:'andrey.sushentsov', target:''}]
+footer#contacts.l-section.l-section__contacts
+  .l-section__container
+    ul.c-contacts__list
+      each contact in contacts
+        li.c-contacts__item
+          a(href=`${contact.link}` target=`${contact.target}`).c-contacts__link
+            i(class=`${contact.icon}` aria-hidden="true" ).c-contacts__icon
+            span.c-contacts__descr=contact.descr

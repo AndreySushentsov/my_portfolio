@@ -1,0 +1,44 @@
+[
+  {
+    "date": "04.2015 - 04.2016",
+    "id": "1",
+    "course": "Самостоятельно изучал основы HTML5, CSS, JQuery, Bootstrap 3. Написал первый сайт на PHP и MySQL. ",
+    "source": "",
+    "src":""
+  },
+  {
+    "date": "05.2016",
+    "id": "2",
+    "course": "Получил сертификат 1-С: Разработчик Битрикс Framework.",
+    "source": "сертификат",
+    "src":"/img/sert_1.jpg"
+  },
+  {
+    "date": "06.2016",
+    "id": "2",
+    "course": "Начал изучать JavaScript",
+    "source": "",
+    "src":""
+  },
+  {
+    "date": "08.2016 - 12.2016",
+    "id": "2",
+    "course": "Проходил специализацию на Coursera “Веб-разработка, полный спектр технологий.” (без сертификата). Познакомился с Node, npm, gulp, Angular 1, MongoDB, Express, патерном проектирования MVC",
+    "source": "",
+    "src":""
+  },
+  {
+    "date": "02.2017 - 03.2017",
+    "id": "2",
+    "course": "Прошел курс 'Продвинутый курс по Веб-разработке' в LoftSchool. Подробно разбирали front-end (верстка, БЭМ, клиентский JavaScript, gulp), разрабатывали серверную часть node, Express, MongoDB",
+    "source": "сертификат",
+    "src":"/img/loft_sert.png"
+  },
+  {
+    "date": "04.2017 - 05.2017",
+    "id": "2",
+    "course": "Прошел курс по NodeJS на learn.javascript.ru",
+    "source": "сертификат",
+    "src":"/img/certificate.jpg"
+  }
+]

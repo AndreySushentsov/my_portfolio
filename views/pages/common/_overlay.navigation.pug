@@ -1,0 +1,7 @@
+-var navigation_items = [{url:'about', menu:'Обо мне'},{url:'works', menu:'Работы'},{url:'ican', menu:'Что умею'},{url:'contacts', menu:'Контакты'}]
+#scrollSpy.overlay-nav__container
+  nav.navigation
+    ul.overlay-nav__list
+      each item in navigation_items
+        li.overlay-nav__item
+          a(href=`#${item.url}`).overlay-nav__link=item.menu
